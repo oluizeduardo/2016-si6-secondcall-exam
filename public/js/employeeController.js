@@ -4,10 +4,10 @@
     function getEmployeeById(id) {
         $.ajax({
             method: "GET",
-            url: "/api/employees/" + id
+            url: "/api/employee/" + id
         })
-        .done(student => {
-            console.log(student)
+        .done(employee => {
+            console.log(employee)
         });
     }
 
